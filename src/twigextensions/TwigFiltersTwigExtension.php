@@ -11,6 +11,7 @@
 namespace threemagine\twigfilters\twigextensions;
 
 use threemagine\twigfilters\TwigFilters;
+use \Twig_SimpleFilter;
 
 use Craft;
 
