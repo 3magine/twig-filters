@@ -1,0 +1,36 @@
+{
+    "name": "threemagine/twig-filters",
+    "description": "Extra twig filters",
+    "type": "craft-plugin",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "twig filters"
+    ],
+    "support": {
+        "email": "hello@3magine.com"
+    },
+    "license": "MIT",
+    "authors": [{
+        "name": "Karl Schellenberg",
+        "homepage": "https://www.3magine.com/"
+    }],
+    "require": {
+        "craftcms/cms": "^3.0.0-RC1"
+    },
+    "autoload": {
+        "psr-4": {
+            "threemagine\\twigfilters\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Twig Filters",
+        "handle": "twig-filters",
+        "hasCpSettings": false,
+        "hasCpSection": false,
+        "changelogUrl": "???",
+        "class": "threemagine\\twigfilters\\TwigFilters"
+    }
+}
